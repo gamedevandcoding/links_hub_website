@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+    <head>
+        <meta name="google" content="notranslate"/>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+        <meta name="color-scheme" content="light dark">
+        
+        <link href='style_index.css' rel='stylesheet' media="screen" id="stylesheetID">
+
+        <style>#main_div, #switch_theme_hitbox{visibility: hidden;}</style>
+        <noscript>
+            <!-- <style>#switch_theme_hitbox, #switch_theme_hitbox > *{display: none;}</style> -->
+            <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+            <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
+            <link href='style_darkmode.css' rel='stylesheet' media="screen">
+        </noscript>
+
+        <title>GameDev & Coding - LINKS</title>
+        <link rel="shourtcut icon" type="img/svg" href="img/GameDev&CodingLogoV2-min.svg">
+
+        <link href='style_services.css' rel='stylesheet' media="screen">
+        
+    </head>
+    <body>
+        <script type="text/javascript">document.body.classList.add("noscroll");</script>
+
+
+        <!---------------- LOADING SCREEN ---------------->
+        <div id="loading_screen">
+            <img src="img/GameDev&CodingLogoV2-min.svg" id="loading_logo"/>
+            <h3 id="loading_message">Loading...</h3>
+        </div>
+        <!---------------- LOADING SCREEN ---------------->
+
+
+        <!---------------- POPUP MESSAGE ---------------->
+        <div id="popup_screen">
+            <div class="popup_message">
+                <div class="popup_message_content">
+                    
+                    <div class="side_btn_container">
+                        <button class="close_popup_message" id="close_popup_btn_arrow">&times;</button>
+                    </div>
+                    
+                    <h3 id="popup_title">SERVICE CURRENTLY UNAVAILABLE</h3>
+                    <div class="paragraph_container">
+                        <p class="popup_paragraph" id="popup_paragraph_01">This service is currently under construction, and soon it will be available.</p>
+                        <p class="popup_paragraph" id="popup_paragraph_02">In the meantime you would like to check other services, enjoy tutorials and much more.</p>
+                        <p class="popup_paragraph" id="popup_paragraph_03">Thank you for your patience.</p>
+                    </div>
+                    <button class="close_popup_message" id="close_popup_btn_text">CLOSE</button>
+
+                </div>
+            </div>
+        </div>
+        <!---------------- POPUP MESSAGE ---------------->
+
+
+        <div class="main_container clearfix" id="main_div">
+
+            <header class="box_container" id="header_container">
+                <img src="img/GameDev&CodingFullLogoJB_V5.svg" id="light_logo"/>
+                <img src="img/GameDev&CodingFullLogoJB_Dark_V5.svg" id="dark_logo"/>
+
+                <div class="about_me" id="header_item_02">
+                    <h3 class="h3__header" id="about_me__header">SOFTWARE</h3>
+                    <h3 class="h3__header">DEVELOPER</h3>
+                </div>
+            </header>
+
+
+
+            <section class="box_container">
+
+                <a class="back_homepage_btn__INT" href="index.html">
+                    <svg class="back_homepage_svg__INT" viewBox="0 0 980 979.99976"><polygon points="508.734 274.625 478.15 244.042 232.192 490 478.15 735.958 508.734 705.375 314.985 511.625 747.808 511.625 747.808 468.375 314.984 468.374 508.734 274.625"/><path d="M-937.99951-2459.6665h-.001c-270.61938,0-489.99951,219.38012-489.99951,489.99926v.001c0,270.61938,219.38013,489.99951,489.99951,489.99951h.001C-667.38037-1479.66675-448-1699.04688-448-1969.66626v-.001C-448-2240.28638-667.38037-2459.6665-937.99951-2459.6665Zm446.74829,490.00024c0,246.73242-200.01611,446.74829-446.74854,446.74829h-.00073c-246.73242,0-446.74853-200.01587-446.74853-446.74829v-.001c0-246.73217,200.01611-446.74829,446.74853-446.74829h.00073c246.73243,0,446.74854,200.01612,446.74854,446.74829Z" transform="translate(1428 2459.6665)"/></svg>
+                    <span class="back_homepage_span__INT" id="back_homepage_span__text" >BACK HOMEPAGE</span>
+                </a>
+
+
+                <div class="accordion">
+                    <input type="checkbox" class="accordion_input" id="input_service">
+                    <label class="accordion_btn" for="input_service">
+                        <span class="service_title">WEB DEVELOPMENT</span>
+                        <svg class="accordion_icon" viewBox="0 0 297.3 168.6"><path d="M148.7 168.6 297.3 0H0l148.7 168.6z"/></svg>
+                    </label>
+
+                    <div class="accordion_content">
+                        <p class="service_info">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="accordion_links">
+                            <span class="service_on">Available On</span>
+                            <div class="service_link__container">
+                                <a class="service_link"><svg class="service_svg" viewBox="0 0 31.2 31.2"><rect class="service_svg__bg" x="3.8" y="3.8" width="23.5" height="23.5"/><path class="service_svg__color" d="M20.7,12.3c-1.6,0-2.1,1.5-2.2,2.4h0l-.2.8a4.2857,4.2857,0,0,0,2.4,1,2.1,2.1,0,1,0,0-4.2Z"/><path class="service_svg__color" d="M27.9,0H3.3A3.32929,3.32929,0,0,0,0,3.3V27.9a3.32929,3.32929,0,0,0,3.3,3.3H27.9a3.32929,3.32929,0,0,0,3.3-3.3V3.3A3.32929,3.32929,0,0,0,27.9,0ZM20.7,18.6a5.21044,5.21044,0,0,1-2.9-.9l-1,4.5H14.6L15.9,16a12.75,12.75,0,0,1-1.5-2.5v.9a4.27441,4.27441,0,0,1-4.1,4.2,4.14044,4.14044,0,0,1-4.1-4.2V8.9H8.3v5.6a2,2,0,0,0,4,0V8.9h2.1a19.15439,19.15439,0,0,0,2.1,4.6,4.201,4.201,0,0,1,4.2-3.4A4.332,4.332,0,0,1,25,14.4a4.24741,4.24741,0,0,1-4.3,4.2Z"/></svg></a>
+                                <span class="service_link__divider"></span>
+                                <a class="service_link"><svg class="service_svg" viewBox="0 0 31.2 31.2"><rect class="service_svg__bg" x="3.8" y="3.8" width="23.5" height="23.5"/><path class="service_svg__color" d="M27.9,0H3.3A3.32929,3.32929,0,0,0,0,3.3V27.9a3.32929,3.32929,0,0,0,3.3,3.3H27.9a3.32929,3.32929,0,0,0,3.3-3.3V3.3A3.32929,3.32929,0,0,0,27.9,0ZM23.1,25.6H18.6V16.1H12.7v9.5H8.1V16.1H5.9V12.7H8.2V11.5a6.05423,6.05423,0,0,1,1.9-4.4,6.31939,6.31939,0,0,1,4.2-1.7h1.5V9.9H14.3a1.28387,1.28387,0,0,0-1,.4,1.60584,1.60584,0,0,0-.5,1.1v1.2H23.2ZM20.8,10.1a2.3,2.3,0,1,1,2.3-2.3,2.263,2.263,0,0,1-2.3,2.3Z"/></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <footer class="box_container">
+
+                <section class="footer_section clearfix" id="expertise_container">
+                    <div class="expertise_list clm01">
+                        <h3 class="expertise_h3" id="devment">Development</h3>
+                        <ul>
+                            <li class="list_item" id="web">Web</li>
+                            <li class="list_item" id="software">Software</li>
+                            <li class="list_item" id="game">Game</li>
+                        </ul>
+                    </div>
+
+                    <div class="expertise_list clm02">
+                        <h3 class="expertise_h3" id="assetprod">Assets Production</h3>
+                        <ul>
+                            <li class="list_item" id="modelling">3D Modelling</li>
+                            <li class="list_item" id="texturing">Texturing</li>
+                            <li class="list_item" id="digitanim">Digital Animation</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="footer_section" id="credits_container">
+                    <ul>
+                        <li class="list_item">gamedevandcoding.com</li>
+                        <li class="list_item">Copyright © <span id="year_info"><noscript>Since 2020 </noscript></span><span class="credits_details">GameDev & Coding</span><span class="credits_details" id="allrights">- All Rights Reserved</span></li>
+                        <li class="list_item">GameDev & Coding <span class="credits_details" id="offlsite">- Official Website</span></li>
+                        
+                        <li class="list_item privacy_policy">
+                            <span id="noDataCollected_info">NO PERSONAL DATA IS COLLECTED</span>
+                            <span id="cookiesFree_info">- COOKIES FREE</span>
+                        </li>
+
+                    </ul>
+                </section>
+                
+            </footer>
+
+        </div>
+        <script type="text/javascript" src="script/languageDetection.js"></script>
+
+        <!---- SWITCH DARK MODE ---->
+        <label class="clearfix" id="switch_theme_hitbox">
+
+            <input type="checkbox" name="switch" id="checkbox_darkmode">
+            <div id="switch_theme_container">
+                <div>
+                    <p class="switch_theme_info" id="theme_info"></p>
+                    <p class="switch_theme_info">MODE</p>
+                </div>
+                <svg id="sun_icon" viewBox="0 0 22.00781 22.00781"><circle cx="10.95502" cy="11.01074" r="5.82434"/><rect x="10.59052" width="0.8457" height="3.61877"/><rect x="10.58173" y="18.38904" width="0.8457" height="3.61877"/><rect x="18.38904" y="10.57574" width="3.61877" height="0.84564"/><rect y="10.56696" width="3.61871" height="0.84564"/><rect x="17.10313" y="16.0095" width="0.84571" height="3.61876" transform="translate(-7.50049 17.27842) rotate(-45)"/><rect x="4.10633" y="3.00027" width="0.84569" height="3.61874" transform="translate(-2.10824 4.27797) rotate(-45)"/><rect x="2.72585" y="17.40077" width="3.61874" height="0.84569" transform="translate(-11.30922 8.09476) rotate(-45.00292)"/><rect x="15.73508" y="4.40397" width="3.61876" height="0.84567" transform="translate(1.69171 13.4862) rotate(-45)"/></svg>
+                <svg id="moon_icon" viewBox="0 0 22.05708 22.74027"><path class="cls-1" d="M3435.84123,5027.54356c-.48389.02021-6.34941.36443-9.3642,5.357a11.66621,11.66621,0,0,0,13.24486,16.91463c5.26843-1.633,7.10532-6.7346,7.29733-7.29734a9.41078,9.41078,0,0,1-11.178-14.97429Z" transform="translate(-3424.96214 -5027.54356)"/></svg>
+            </div>
+
+        </label>
+        <!---- SWITCH DARK MODE ---->
+
+        <script type="text/javascript" src="script/resizeComputedFont.js"></script>
+        <script type="text/javascript" src="script/darkmode.js"></script>
+        <script type="text/javascript">
+            try{
+                document.getElementById("year_info").innerText = new Date().getFullYear() + " ";
+            }catch(error){}
+
+            try{
+                window.addEventListener("load", async function(){
+
+                    document.body.classList.remove("noscroll");
+                    document.getElementById("main_div").style.visibility = "visible";
+                    document.getElementById("switch_theme_hitbox").style.visibility = "visible";
+                    window.scrollTo({top: 0});
+                    document.getElementById("loading_screen").style.display = "none";
+                    
+                });
+            }catch(error){}
+        </script>
+        <script type="text/javascript" src="script/popup_screen.js"></script>
+        <script>
+            const delay = ms => new Promise(res => setTimeout(res, ms));
+            
+            var acc = document.getElementsByClassName("accordion_btn");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+
+                acc[i].addEventListener("click", async function() {
+
+                    var arrow = this.children[1];
+                    //arrow.classList.toggle("accordion_opened");
+
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                        arrow.classList.remove("accordion_opened");
+
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                        await delay(1);
+                        panel.style.maxHeight = null;
+                    }
+                    else {
+                        arrow.classList.add("accordion_opened");
+                        
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                        await delay(150);
+                        panel.style.maxHeight = 'none';
+                    }
+                });
+                
+            }
+        </script>
+        <script type="text/javascript" src="script/showaboutme.js"></script>
+
+
+    </body>
+</html>

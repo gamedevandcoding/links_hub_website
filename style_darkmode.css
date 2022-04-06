@@ -1,0 +1,122 @@
+/* MAKE BODY SCROLLABLE */
+.noscroll{overflow: visible;}
+
+/* HIDE LOADING SCREEN */
+#loading_screen, #loading_screen > *{display: none;}
+
+
+/* HIDE SWITCH THEME BTN */
+#switch_theme_hitbox, #switch_theme_hitbox > *{display: none;}
+
+
+/* -------------- NO JS LIGHT MODE -------------- */
+@media screen and (prefers-color-scheme: light){
+    :root{
+        color-scheme: light dark;
+        --body_bg: #ffffff;
+
+        --bg: black;
+        --text_01: "DARK";
+
+        --light_logo_display: block;
+        --dark_logo_display: none;
+
+        --illustration_opacity: 1;
+        --illustration_filter: grayscale(0);
+
+        --NoN_Social_text_color: #2d2d2d;
+        --NoN_Social_svg_color: #008CFF;
+        --NoN_Social_border_color: #2d2d2d;
+
+        --Social_text_color: #ffffff;
+        --Social_svg_color: #ffffff;
+
+        --youtube_BTN_bg: #ff0000;
+        --linkedin_BTN_bg: #008CFF;
+
+        --instagram_BTN_bg_color: #f09433;
+        --instagram_BTN_bg_gradient_moz: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        --instagram_BTN_bg_gradient_webkit: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+        --instagram_BTN_bg_gradient: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+        --instagram_BTN_filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+
+        --shop_BTN_BTN_bg:#555555;
+        --hireMe_BTN_bg:#1EBC3C;
+
+        --discord_BTN_bg: #7289da;
+        --patreon_BTN_bg: #F86754;
+
+        --extra_BTN_bg: #E2E2E2;
+        --extra_svg-text_color: #555555;
+        
+        --bg_popup_screen: rgba(0, 0, 0, 0.5);
+        --bg_popup_message: #ffffff;
+        --color_popup_message: #000000;
+
+        --service_svg__bg:#ffffff;
+        --service_svg__color:#1EBC3C;
+
+        --back_homepage_color:#2d2d2d;
+        
+    }
+}
+/* -------------- NO JS LIGHT MODE -------------- */
+
+
+
+
+/* -------------- NO JS DARK MODE -------------- */
+@media screen and (prefers-color-scheme: dark) {
+    :root{
+        --body_bg: #1e1e1e;
+
+        --bg: #ffa300;
+        --text_01: "LIGHT";
+
+        --light_logo_display: none;
+        --dark_logo_display: block;
+        
+        --illustration_opacity: 0.5;
+        --illustration_filter: grayscale(100%);
+
+        --NoN_Social_text_color: #cccccc;
+        --NoN_Social_svg_color: #cccccc;
+        --NoN_Social_border_color: #333333;
+
+        --Social_text_color: #cccccc;
+        --Social_svg_color: #cccccc;
+
+        --youtube_BTN_bg: #333333;
+        --linkedin_BTN_bg: #333333;
+
+        --instagram_BTN_bg_color: #333333;
+        --instagram_BTN_bg_gradient_moz: none #333333;
+        --instagram_BTN_bg_gradient_webkit: none #333333;
+        --instagram_BTN_bg_gradient: none #333333;
+        --instagram_BTN_filter: none;
+
+        --shop_BTN_BTN_bg:#333333;
+        --hireMe_BTN_bg: #333333;
+
+        --discord_BTN_bg: #333333;
+        --patreon_BTN_bg: #333333;
+
+        --extra_BTN_bg: #333333;
+        --extra_svg-text_color: #cccccc;
+
+        --bg_popup_screen: rgba(0, 0, 0, 0.25);
+        --bg_popup_message: #cccccc;
+        --color_popup_message: #333333;
+
+        --service_svg__bg:#333333;
+        --service_svg__color:#cccccc;
+
+        --back_homepage_color:#cccccc;
+
+    }
+}
+/* -------------- NO JS DARK MODE -------------- */
+
+#main_div, #switch_theme_hitbox{visibility: visible;}
+
+#input_service:checked ~ .accordion_content{max-height: fit-content;}

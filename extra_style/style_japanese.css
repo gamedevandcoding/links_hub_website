@@ -1,0 +1,84 @@
+/* noto-sans-jp-100 - japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 100;
+  src: local(''),
+       url('../fonts/noto-sans-jp-v40-japanese-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/noto-sans-jp-v40-japanese-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* noto-sans-jp-regular - japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/noto-sans-jp-v40-japanese-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/noto-sans-jp-v40-japanese-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* noto-sans-jp-700 - japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/noto-sans-jp-v40-japanese-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/noto-sans-jp-v40-japanese-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+.nav_item_content,
+.multi-lang, .dropdown_h3, .services_hireMe, .section_title_container, .section_title_h3, .nav_item_detail,
+.expertise_list h3, .expertise_list, .expertise_list ul, .expertise_list li, 
+#credits_container, .credits_details:last-of-type, 
+.privacy_policy, #noDataCollected_info, #cookiesFree_info{font-family: 'Noto Sans JP';}
+
+
+
+
+
+
+
+
+
+#services_subtitle{display: none;}
+.services_hireMe{font-size: 25px;}
+
+
+/* -------------- FONT-WEIGHT -------------- */
+.multi-lang{font-weight: 700;}
+
+.dropdown_h3, .section_title_h3, .nav_item_detail,
+.expertise_list ul, .expertise_list li, .credits_details:last-of-type, 
+.privacy_policy, #noDataCollected_info, #cookiesFree_info{font-weight: 100;}
+
+.services_hireMe, #services_title{font-weight: 700;}
+.expertise_list h3{font-weight: 400;}
+/* -------------- FONT-WEIGHT -------------- */
+
+
+/* -------------- FONT-SIZE -------------- */
+.section_title_container, .dropdown_h3, .section_title_h3, .expertise_list h3{font-size: 22px;}
+.expertise_list, .expertise_list li{font-size: 18px;}
+/* -------------- FONT-SIZE -------------- */
+
+
+/* -------------- POPUP -------------- */
+#popup_title{font-weight: 700;}
+.paragraph_container p{font-size: 20px; font-weight: 100; margin: 14px 0;}
+#close_popup_btn_text{font-size: 18px; font-weight: 700;}
+/* -------------- POPUP -------------- */
+
+
+/* -------------- FONT-SIZE FIX -------------- */
+.nav_item_content{font-size: 25px;}#credits_container{font-size: 14px;}
+/* -------------- FONT-SIZE FIX -------------- */
+
+
+@media screen and (max-width: 325px){
+    
+    .dropdown_h3, .section_title_h3{font-size: 18px;}
+    .services_hireMe{font-size: 20px;}
+    .expertise_list h3{font-size: 20px;}
+}
